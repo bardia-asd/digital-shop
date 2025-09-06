@@ -1,6 +1,28 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: "Vazir";
+    src: url("../public/fonts/vazir/Vazir-FD-WOL.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazir Medium";
+    src: url("../public/fonts/vazir/Vazir-Medium-FD-WOL.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazir Bold";
+    src: url("../public/fonts/vazir/Vazir-Bold-FD-WOL.woff2") format("woff2");
+    font-style: normal;
+}
+
 @theme {
+    --font-vazir: "Vazir", sans-serif;
+    --font-vazir-medium: "Vazir Medium", sans-serif;
+    --font-vazir-bold: "Vazir Bold", sans-serif;
+
     --shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
     --shadow-sm: 0 1px 2px 0 #0000000d;
     --shadow-md: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
